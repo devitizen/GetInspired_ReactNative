@@ -1,4 +1,4 @@
-// "StAuth10244: I Jonghwan Lee, 000811948 certify that this material is my original work. Noother person's work has been used without due acknowledgement. I have notmade my work available to anyone else."
+// "StAuth10244: I Jonghwan Lee, 000811948, certify that this material is my original work. Noother person's work has been used without due acknowledgement. I have notmade my work available to anyone else."
 
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, FlatList, TouchableOpacity, Image} from 'react-native';
@@ -124,7 +124,7 @@ const App = () => {
                     </View>
                     <View style={styles.input}>
                         <TextInput style={styles.inputText}
-                            placeholder="e.g. home, school, study, etc."
+                            placeholder="e.g. home, school, etc."
                             onChangeText={text => setKeyword(text)}
                             ref={value => setTextInputRef(value)}/>
                         <Button 
